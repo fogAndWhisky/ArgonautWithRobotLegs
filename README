@@ -1,0 +1,5 @@
+Use ArgonautWithRobotLegs to inject Argonaut into a RobotLegs context.
+
+injector.mapSingletonOf(IArgonaut, ArgonautWithRobotLegs);
+
+ArgonautWithRobotLegs supports all the same methods as the standard Argonaut.
